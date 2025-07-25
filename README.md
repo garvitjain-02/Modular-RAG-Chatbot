@@ -1,4 +1,4 @@
-# 🧠 Modular RAG PDF Chatbot with FastAPI, ChromaDB & Streamlit
+# Modular RAG PDF Chatbot with FastAPI, ChromaDB & Streamlit
 
 This project is a modular **Retrieval-Augmented Generation (RAG)** application that allows users to upload PDF documents and chat with an AI assistant that answers queries based on the document content. It features a microservice architecture with a decoupled **FastAPI backend** and **Streamlit frontend**, using **ChromaDB** as the vector store and **Groq's LLaMA3 model** as the LLM.
 
