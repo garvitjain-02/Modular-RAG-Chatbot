@@ -5,8 +5,8 @@ from components.chatUI import render_chat
 
 
 
-st.set_page_config(page_title="RagBot 2.0",layout="wide")
-st.title("RAG PDF Chatbot")
+st.set_page_config(page_title="RAG Medical ChatBot",layout="wide")
+st.title("RAG Medical ChatBot")
 
 
 render_uploader()
