@@ -8,10 +8,9 @@ from modules.query_handlers import query_chain
 from logger import logger
 import os
 
-app=FastAPI(title="RagBot2.0")
+app=FastAPI(title="RAG_Chatbot")
 
-# allow frontend
-
+# allow frontend for every origin
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
